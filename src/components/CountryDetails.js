@@ -17,7 +17,7 @@ function CountryDetails(){
                  capital: data[0].capital,
                  area: data[0].area,
                  borders: data[0].borders,
-                 flags: data[0].flags.svg 
+                //  flags: data[0].flags.svg 
             
              }
              setDetail(country)
@@ -32,16 +32,17 @@ function CountryDetails(){
      
      return (
         <div> 
-            
         <h1>Country Details</h1>
         <p>Name of the country - {detail.name}</p>
         <p>Capital city - {detail.capital}</p>
         <p>Area - {detail.area}</p>
         <p>Borders - {detail.borders}</p>
-
-    </div>
+        
+        
+        </div>
      )
 	
 }
 
 export default CountryDetails
+

@@ -11,9 +11,11 @@ function App() {
 
 return  (
 
-<div>
+<div className= "App">
 <Navbar />
 <div style={{display: 'flex'}} >
+
+
   
   <CountriesList />
   <Routes>
@@ -24,6 +26,7 @@ return  (
 
 </div>
 </div>
+
 )
 }
 
